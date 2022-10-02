@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 625px;
+    background-image: url("images/back-image.png");
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+.logo h1 {
+
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+    display: inline-block;
+    font-size: 25px;
+}
+.paragrap  h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 50px
+}
+.intro {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border: 1px solid rgb(5, 168, 220);
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.intro .item{
+    color: rgb(119, 118, 118);
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.about {
+    height: 570px;
+    justify-content: space-between;
+    display: flex;
+}
+.about .photo{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    align-items: center;
+    left: 60px;
+    top: 50px;
+    justify-content: space-around;
+}
+.about .discription h1{
+    position: relative;
+    bottom: 40px;
+}
+.about .discription{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 25px;
+}
+.about .discription .button{
+    color:white;
+    background-color: rgb(5, 168, 220);
+    padding: 1.4rem 2.3rem;
+    position: relative;
+    border: 1px solid rgb(5, 168, 220);
+    border-radius: 10px;
+    text-decoration: none;
+    top: 80px;
+    font-size: 20px;
+}
+/* main {
+    background-color: rgb(21, 8, 94);
+} */
+.container {
+    background-color: rgba(235, 229, 229, 0.842);
+    height: 1150px;
+}
+.container .sbutton{
+    color: white;
+    background-color: rgb(5, 168, 220);
+    border: 1px solid rgb(5, 168, 220);
+    border-radius: 10px; 
+    padding: 1.5rem 3rem;
+    top: 50px;
+    font-size: 32px;
+    display:contents;
+    position: relative;
+    left: 550px;
+
+}
+.container h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.container .gallary{
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .gallary .talah{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.container .gallary .man{
+    flex-flow: wrap;
+    display: flex;
+    position: relative;
+    left: 70px;
+    justify-content: space-between;
+}
+.container .gallary .minlogo{
+    position: relative;
+    align-items:flex-end;
+    top: 250px;
+    right: 600px;
+
+}
+.container .gallary .fish {
+    position: relative;
+    justify-content:center ;
+    left: 55px;
+    top: 53px;
+}
+.container .gallary .men{
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+}
+.final{
+    position: relative;
+    top:100px;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(5, 168, 220);
+}
+.final .next {
+    width: 650px;
+    height: 400px;
+    color:white;    
+
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 20px;
+
+}
+.final .next h1{
+    position: relative;
+    bottom: 5opx;
+}
+.final .next p{
+    position: relative;
+    top: 50px;
+}
+.final .last{
+    width: 650px;
+    height: 400px;
+    color: white;
+    float: right;
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+}
+.final .last .form{
+    position: relative;
+    top: 100px;
+    align-items: center;
+    align-content: center;
+}
+.final .last h2{
+    font-size: 50px;
+    position: relative;
+    bottom: 60px;
+
+}
+.final .last .j{
+    padding: 0.7rem 5rem;
+    border-radius: 13px;
+    position: relative;
+    left: 30px;
+
+
+}
+.final .last .f{
+    padding: 0.7rem 5rem;
+    border-radius: 13px;
+    position: relative;
+    left: 30px;
+
+}
+.final .last .m{
+    padding: 0.7rem 2rem;
+    border-radius: 13px;
+    position: relative;
+    left: 110px;
+    background-color: rgb(5, 168, 220,);
+}
